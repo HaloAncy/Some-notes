@@ -72,9 +72,9 @@ cin.get();
 
 成员函数cin.get(ch)读取输入中的下一个字符（即使它是空格），并将其赋给变量ch。
 
-![6](https://github.com/HaloAncy/HelloHalo/blob/master/6.jpg)
+![6](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/6.jpg)
 
-![7](https://github.com/HaloAncy/HelloHalo/blob/master/7.jpg)
+![7](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/7.jpg)
 
 ##### cout -ostream类对象
 
@@ -112,7 +112,7 @@ endl确保程序继续运行前刷新输出（将其立刻显示在屏幕上）
 类似putchar()</br>
 **cout.put(ch)**
 
-![5](https://github.com/HaloAncy/HelloHalo/blob/master/5.jpg)
+![5](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/5.jpg)
 
 
 ### sizeof运算符
@@ -236,7 +236,7 @@ enum {zero, null=0, one, numero_uno=1};
 如果打算只使用常量，而不创建枚举类型的变量，则可以省略枚举类型的名称。
 
 枚举的取值范围</br>
-![1](https://github.com/HaloAncy/HelloHalo/blob/master/1.png)
+![1](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/1.png)
 
 
 ### 指针 new
@@ -314,7 +314,7 @@ cout << tell << endl;
 cout << &tell << endl;
 ```
 
-![2](https://github.com/HaloAncy/HelloHalo/blob/master/2.png)
+![2](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/2.png)
 
 ##### 字符串
 
@@ -379,7 +379,7 @@ double (*pf)(int);
 
 ##### 延时循环
 
-![4](https://github.com/HaloAncy/HelloHalo/blob/master/4.jpg)
+![4](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/4.jpg)
 
 
 ### 建立别名
@@ -398,7 +398,7 @@ typedef typeName aliasName;
 
 ##### typedef
 
-![8](https://github.com/HaloAncy/HelloHalo/blob/master/8.png)
+![8](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/8.png)
 
 
 ### 函数原型

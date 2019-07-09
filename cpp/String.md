@@ -15,7 +15,7 @@ string类位于名称空间std中
 可以将char数组视为一组用于存储一个字符串的char存储单元，而string类变量是一个表示字符串的实体。
 
 
-![3](https://github.com/HaloAncy/HelloHalo/blob/master/3.jpg)
+![3](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/3.jpg)
 
 
 ### 字符流
@@ -28,7 +28,7 @@ string类位于名称空间std中
 <sstream>库定义了三种类：istringstream、ostringstream和stringstream，分别用来进行留的输入、输出和**输入输出**操作。</br>
 <sstream>使用****string对象来代替字符数组****。这样可以避免缓冲区溢出的危险。而且，传入参数和目标对象的类型被自动推导出来，即使使用了不正确的格式化符也没有危险。
 
-![9](https://github.com/HaloAncy/HelloHalo/blob/master/9.png)
+![9](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/9.png)
 
 
 ### 字符操作
@@ -75,8 +75,8 @@ int find(char c,int pos=0);
 
 **length() size()**
 
-![10](https://github.com/HaloAncy/HelloHalo/blob/master/10.png)
+![10](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/10.png)
 
 const char *c_str();
 
-![11](https://github.com/HaloAncy/HelloHalo/blob/master/11.png)
+![11](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/11.png)

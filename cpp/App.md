@@ -324,7 +324,7 @@ double z=refcube(x+3.0);
 
 返回引用时最重要的一点是，应避免返回函数终止时不再存在的内存单元引用
 
-![12](https://github.com/HaloAncy/HelloHalo/blob/master/12.png)
+![12](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/12.png)
 
 
 ### 对象 继承 引用
@@ -339,10 +339,10 @@ ofstream是派生类</br>
 
 继承的另一个特征 - 基类引用可以指向派生类对象，而无需进行强制类型转换
 
-![13](https://github.com/HaloAncy/HelloHalo/blob/master/13.jpg)
+![13](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/13.jpg)
 
 格式化</br>
-![14](https://github.com/HaloAncy/HelloHalo/blob/master/14.png)
+![14](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/14.png)
 
 
 ### 默认参数
@@ -352,7 +352,7 @@ ofstream是派生类</br>
 设置默认值——通过函数原型
 
 将值赋给原型中的参数</br>
-![15](https://github.com/HaloAncy/HelloHalo/blob/master/15.jpg)
+![15](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/15.jpg)
 
 
 ### 函数重载
@@ -362,15 +362,15 @@ ofstream是派生类</br>
 
 函数重载的关键是**函数的参数列表**——**函数特征标**。如果两个**函数的参数数目和类型**相同，同时**参数的排列顺序**也相同，则它们的特征标相同，而变量名是无关紧要的。++C\+\+允许定义名称相同的函数，条件是它们的特征标不同++。如果参数数目和/或参数类型不同，则特征标也不同。
 
-![16](https://github.com/HaloAncy/HelloHalo/blob/master/16.jpg)
+![16](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/16.jpg)
 
 编译器在检查函数特征标时，将把类型引用和类型本身视为用一个特征标。</br>
 匹配函数时，并不区分const和非const常量。
 
-![17](https://github.com/HaloAncy/HelloHalo/blob/master/17.jpg)
+![17](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/17.jpg)
 
-![18](https://github.com/HaloAncy/HelloHalo/blob/master/18.png)</br>
-![19](https://github.com/HaloAncy/HelloHalo/blob/master/19.jpg)
+![18](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/18.png)</br>
+![19](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/19.jpg)
 
 函数基本上执行相同的任务，但使用不同形式的数据时，应采用函数重载。
 
@@ -420,7 +420,7 @@ void Swap(T *a, T *b, int n);
 
 当编译器找到与函数调用匹配的具体化定义时，将使用该定义，而不再寻找模板。
 
-![20](https://github.com/HaloAncy/HelloHalo/blob/master/20.png)
+![20](https://github.com/HaloAncy/Some-notes/blob/master/cpp/picture/20.png)
 
 ```c++
 //下面是用于交换job结构的非模板函数、模板函数和具体化的原型
